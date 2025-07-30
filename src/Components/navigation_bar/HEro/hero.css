@@ -47,6 +47,9 @@
     border-radius: 50px;
     border: 2px solid #FFF;
     cursor :pointer;
+    text-decoration:none;
+    color: inherit;   
+        
 }
 .hero-connect:hover{
     border: 2px solid white;
@@ -88,5 +91,11 @@
     }.hero-resume{
         padding:20px 50px;
         border-radius: 40px;
+        text-decoration:none;
+        color: inherit;   
+        cursor:pointer;
     }
+    .hero-resume:hover {
+  color: #B415FF; /* optional: change color on hover */
+}
 }
